@@ -1,0 +1,91 @@
+.candidate-verification-enter-otp-outer-container{
+    padding: 30px;
+    .candidate-verification-inner-container {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .candidate-verification-content-container {
+            width: 423px;
+            display: flex;
+            flex-direction: column;
+            
+            h1{
+                font-size: 38px;
+                margin-bottom: 40px;
+            }
+
+            .tick-text-container{
+                background-color: #EFFFF3;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 52px;
+                width: 423px;
+                border-radius: 12px;
+                padding: 10px;
+                margin-bottom: 24px;
+
+                p{
+                    color: #0AAE2F;
+                    font-size: 16px;
+                    margin-left: 10px;
+                }
+            }
+
+            .enter-otp-text{
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 24px;
+            }
+
+            .verified-container {
+                height: 297px;
+                width: 541px;
+                color: #000;
+                background-color: #ffffff;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border-radius: 12px;
+                padding: 24px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            
+                  .verified-img {
+                    height: 100px;
+                    width: 100px;
+                  }
+            
+                  .verified-heading {
+                    font-size: 24px;
+                    margin-top: 40px;
+                    font-weight: 600;
+                  }
+              }
+
+            .resend-text-container{
+                display: flex;
+                align-self: center;
+
+                .not-recieved-text{
+                    font-size: 16px;
+                    color: #4C4949;
+                    margin-right: 5px;
+                }
+                .resend-text{
+                    font-size: 18px;
+                    color: #5C27C0;
+                    font-weight: 600;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+    
+    }
+}
+

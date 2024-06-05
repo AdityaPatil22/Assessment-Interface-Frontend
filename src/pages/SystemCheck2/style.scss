@@ -1,0 +1,110 @@
+.system-check-2-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 79px;
+
+  .system-check-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+
+    .system-check-heading {
+      font-size: 38px;
+      align-self: center;
+      font-weight: 600;
+    }
+
+    .system-check-para {
+      text-align: center;
+      font-size: 24px;
+      line-height: 32px;
+      margin-top: 24px;
+    }
+  }
+
+  .system-check-items-container {
+    width: 354px;
+    height: 315px;
+    border: 1px solid #c0c0c0;
+    margin-top: 53px;
+    padding: 0px 29px 29px 29px;
+
+    .system-check-item {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+
+      .system-check-item-para {
+        font-size: 28px;
+        font-weight: 400;
+        color: #5c27c0;
+        margin-left: 8px;
+      }
+
+      .system-check-item-status-internet {
+        margin-left: 80px;
+      }
+
+      .system-check-item-status-camera {
+        margin-left: 80px;
+      }
+
+      .system-check-item-status-browser {
+        margin-left: 72px;
+      }
+
+      .system-check-item-status-microphone {
+        margin-left: 28px;
+      }
+    }
+  }
+
+  .browser-error-container {
+    width: 493px;
+    height: 295px;
+    border-radius: 8px;
+    color: #000;
+    background-color: #fff;
+
+    .browser-error-top-container {
+      border-radius: 8px;
+      height: 58px;
+      background-color: #e6e6e6;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 28px;
+    }
+
+    .browser-error-bottom-container {
+      margin-top: 28px;
+
+      .browser-error-text-container {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: space-between;
+        align-items: center;
+
+        .browser-error-text {
+          font-size: 25px;
+          padding-top: 25px;
+          margin-left: 20px;
+        }
+      }
+    }
+
+    .browser-error-btn-container {
+      margin-top: 30px;
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 40px;
+    }
+  }
+}

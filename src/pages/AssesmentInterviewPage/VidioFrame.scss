@@ -1,0 +1,28 @@
+.interview-with-candidate-screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  
+}
+.video-interview-with-ai{
+    // style={{display:"flex",alignItems:"center",justifyContent:"center"}} 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74%;
+    
+}
+.video-frame-container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    // width:800px ;
+
+
+
+    // img{
+    //     max-width: 92%
+    // }
+}

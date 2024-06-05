@@ -1,0 +1,45 @@
+.interviewDoneBody{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #F5F5F5;
+    .interview-done-subcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+.heading-and-subheading-interview-donepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+       
+    }
+}
+.header-of-assesment-interface{
+    display: flex;
+    justify-content: space-between;
+    .language-dropdown{
+        display: flex;
+        align-items: center;
+    }
+}
+.feedback-button{
+    display: flex;
+    justify-content: center;
+}
+.subline-in-interview-done{
+    color:  #393939;
+}
+.interview-main-container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+}

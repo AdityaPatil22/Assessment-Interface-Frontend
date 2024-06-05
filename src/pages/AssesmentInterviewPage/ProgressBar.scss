@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.progress-bar-componant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: black;
+}
+.progress-bar-main{
+    border-radius: 5px;
+    // width:1200px;
+    width: 75%;
+    background:#3F3F3F;
+    height:2px;
+.progressbar{
+    width: 40px;
+    height: 2px;
+    border-radius: 5px;
+    background:#E6D9FF;
+    width:40px;
+}
+}

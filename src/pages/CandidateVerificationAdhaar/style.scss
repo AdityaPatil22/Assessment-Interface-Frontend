@@ -1,0 +1,119 @@
+.candidate-verification-outer-container{
+    padding: 30px;
+    .candidate-verification-inner-container {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .candidate-verification-content-container {
+            width: 423px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+    
+            h1 {
+                font-size: 38px;
+                // margin-bottom: 40px;
+            }
+    
+            p {
+                font-size: 20px;
+                text-align: left;
+                // margin-bottom: 20px;
+            }
+    
+            .adhaar-input-container{
+                // margin-bottom: 20px;
+                .otp-input {
+                    width: 136px;
+                    height: 50;
+                    padding: 10px;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-right: 5px;
+                    border-radius: 8px;
+                }
+            }
+
+            
+
+            .mobile-number-input-container {
+                display: flex;
+                align-items: center;
+                border: 1px solid #000000;
+                border-radius: 8px;
+                // padding: 2px;
+                height: 60px;
+                width: 100%;
+                // margin-bottom: 20px;
+    
+                .left-container {
+                    border-right: 1px solid #000000;
+                    align-self: stretch;
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+    
+                    .country-select {
+                        border: none;
+                        outline: none;
+                        font-size: 18px;
+                       
+                    }
+    
+                    .option-text {
+                        font-size: 18px;
+                    }
+                }
+    
+    
+    
+                .country-code-and-mobile-input {
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    padding-left: 12px;
+    
+                    p {
+                        font-size: 18px;
+                        margin: 0 12px 0 0;
+                    }
+    
+                    .mobile-number-input {
+                        border: none;
+                        font-size: 18px;
+                        outline: none;
+                    }
+                }
+    
+    
+            }
+        }
+    
+    
+    }
+}
+// .country-select {
+//     /* ... other styles ... */
+//     direction: down;
+//     max-height: 200px; /* This tells the dropdown to open downwards */
+//   }
+.paragraph-and-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+.combined-container-prargraph-and-inputfields{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    position: relative;
+}
+.verification-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
