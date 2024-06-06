@@ -1,4 +1,3 @@
-import React from "react";
 import "./Footer.scss";
 import left from "../../assets/images/left.svg";
 import right from "../../assets/images/right.svg";
@@ -17,11 +16,9 @@ function Footer() {
          
             <Button
               sx={{
-                border: "solid 1px #5C27C0",
                 color: "#fff",
                 marginTop: "14px",
                 marginBottom: "40px",
-                borderRadius: "4.75px",
                 width: "110px",
                 height: "40px",
                 fontWeight: "400",
@@ -33,7 +30,6 @@ function Footer() {
                 alignItems: "center",
                 display: "flex",
                 border: "#e6d9ff solid 2px",
-                padding: "8px",
                 borderRadius: "7px 7px 7px 7px",
 
                 "&:hover": {
@@ -100,11 +96,9 @@ function Footer() {
         <div className="next-btn" >
             <Button
               sx={{
-                border: "solid 1px #5C27C0",
                 color: "#fff",
                 marginTop: "14px",
                 marginBottom: "40px",
-                borderRadius: "4.75px",
                 width: "110px",
                 height: "40px",
                 fontWeight: "400",
@@ -112,7 +106,6 @@ function Footer() {
                 background: "black",
                 fontSize: "18px !important",
                 alignSelf: "center",
-                padding: "10px",
                 alignItems: "center",
                 display: "flex",
                 border: "#e6d9ff solid 2px",

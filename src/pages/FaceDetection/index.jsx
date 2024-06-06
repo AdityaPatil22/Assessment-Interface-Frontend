@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import AssesmentInterfaceReworkLogo from "../../assets/icons/AssessmentInterfaceReworkLogo";
-import FaceDetectionVideoImage from "../../assets/images/FaceDetectionVideoImage.png";
-import FaceDetectionOverlayImage from "../../assets/images/FaceDetectionOverlayImage.png";
 import VideoCamera from "../../assets/icons/VideoCamera";
 import verified_tick from "../../assets/images/verified_tick.png"
 import Backdrop from "@mui/material/Backdrop";
@@ -10,7 +8,7 @@ import PropTypes from 'prop-types';
 import LinearProgress from '@mui/material/LinearProgress';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-// import CameraComponent from "../CodingEnvironment/CameraComponent";
+import CameraComponent from "./CameraComponent";
 
 import "./style.scss";
 import { Link } from "react-router-dom";
@@ -145,7 +143,7 @@ function FaceDetectionPage() {
 
         <div className="face-detection-bottom-right-container">
           <div className="camera-screen">
-            {/* <CameraComponent/> */}
+            <CameraComponent/>
           </div>
           
 
@@ -207,7 +205,7 @@ function FaceDetectionPage() {
       >
         <div className="face-detection-overlay-container">
         <div className="camera-screen">
-            {/* <CameraComponent/> */}
+            <CameraComponent/>
           </div>
           <div className="face-detection-overlay-bottom-container">
             <Box sx={{ width: '50%' }}>
